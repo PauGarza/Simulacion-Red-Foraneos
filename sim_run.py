@@ -13,11 +13,11 @@ def establecer_parametros(sheet, parametros):
 
 # Configuración de los parámetros de la simulación
 parametros = {
-    'B2': 300,  # Plan en Mbps
-    'B3': 0.2,   # Ocupación de la casa
-    'B4': 0.8,   # Porcentaje de uso de la red de áreas privadas
-    'B7': 0,    # Invitados en la casa
-    'B8': 'OFF'  # Evento especial
+    'B3': 75,  # Plan en Mbps
+    'B4': 0.2,   # Ocupación de la casa
+    'B5': 0.8,   # Porcentaje de uso de la red de áreas privadas
+    'B8': 0,    # Invitados en la casa
+    'B9': 'OFF'  # Evento especial
 }
 establecer_parametros(sheet, parametros)
 
@@ -34,19 +34,19 @@ def recalcular_y_capturar(sheet, celda_a_recalcular, celdas_a_capturar):
 
 # Mapeo de celdas a capturar con nombres descriptivos
 celdas_a_capturar = {
-    'T24': 'A',
-    'P24': 'B',
-    'L24': 'C',
-    'T3': 'D',
-    'P3': 'E',
-    'L3': 'F',
-    'G16': 'G',
-    'G10': 'H',
-    'G22': 'JARDIN',
-    'G28': 'COCINA',
-    'Q14': 'R1',
-    'Q20': 'R2',
-    'J14': 'R3'
+    'U25': 'A',
+    'Q25': 'B',
+    'M25': 'C',
+    'U4': 'D',
+    'Q4': 'E',
+    'M4': 'F',
+    'G11': 'G',
+    'G5': 'H',
+    'G17': 'JARDIN',
+    'G23': 'COCINA',
+    'R15': 'R1',
+    'R21': 'R2',
+    'K15': 'R3'
 }
 
 # Realizar múltiples recalculaciones y capturas
