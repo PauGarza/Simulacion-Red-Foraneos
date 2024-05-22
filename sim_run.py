@@ -13,9 +13,9 @@ def establecer_parametros(sheet, parametros):
 
 # Configuración de los parámetros de la simulación
 parametros = {
-    'B3': 75,  # Plan en Mbps
-    'B4': 0.2,   # Ocupación de la casa
-    'B5': 0.8,   # Porcentaje de uso de la red de áreas privadas
+    'B3': 300,  # Plan en Mbps
+    'B4': 0.75,   # Ocupación de la casa
+    'B5': 0.6,   # Porcentaje de uso de la red de áreas privadas
     'B8': 0,    # Invitados en la casa
     'B9': 'OFF'  # Evento especial
 }
